@@ -14,6 +14,8 @@ public class TestaMetodos {
 		
 		contaTeste.transfere(30, contaTeste2);
 		System.out.println("O novo saldo da contaTeste2 é "+contaTeste2.saldo);
+		
+		contaTeste.transfere(5, contaTeste2);
+		System.out.println(contaTeste.saldo+" "+contaTeste2.saldo);
 	}
-
 }
